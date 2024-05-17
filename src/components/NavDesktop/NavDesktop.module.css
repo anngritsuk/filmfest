@@ -1,0 +1,25 @@
+.navDesktop {
+    display: none;
+  }
+  
+  @media (min-width: 1024px) {
+    .navDesktop {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      font-size: 0.875rem;
+    }
+  }
+  
+  .navDesktopListItemLink {
+    display: flex;
+    align-items: center;
+    gap: 1px;
+    color: #718096;
+    transition: all 0.3s ease;
+  }
+  
+  .navDesktopListItemLink:hover {
+    color: #a0aec0;
+  }
+  

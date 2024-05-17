@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('assets/background.jpg');
+    height: 100vh;
+    padding: 35px;
+}
+
+.link {
+    color: white;
+}
+

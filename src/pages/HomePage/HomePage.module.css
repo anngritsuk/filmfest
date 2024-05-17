@@ -1,0 +1,32 @@
+.home {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    align-items: center;
+  }
+  
+  .homebuttom {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 120px;
+    margin: 0 auto;
+    background-color: #333;
+    color: #999;
+    border-radius: 5px;
+
+    margin-top: 10px;
+  }
+
+
+  .home{
+    padding: 15px;
+  }
+
+  .active {
+    background-color:red;
+  }
+

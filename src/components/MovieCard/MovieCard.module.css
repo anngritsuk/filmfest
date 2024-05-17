@@ -1,0 +1,66 @@
+.movieCard {
+  width: 266px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  grid-row-end: span 24;
+  position: relative;
+  background-color: #1a1a1a;
+}
+
+.poster {
+  width: 100%;
+  height: 357px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.title-dark-theme {
+  width: 100%;
+  height: auto;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  color: white;
+  font-family: "Exo 2";
+  margin-bottom: 0px;
+}
+
+.title-light-theme {
+  width: 100%;
+  height: auto;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #242426;
+  font-family: "Exo 2";
+  margin-bottom: 0px;
+}
+
+.info {
+  color: white;
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+.text {
+  display: flex;
+  gap:15px;
+  width: 100%;
+  height: auto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color:#AFB2B6;
+  font-family: "Exo 2";
+  margin-bottom: 0px;
+  margin-top: 5px;
+}
+
+
+@media screen and (max-width: 300px) {
+  .movieCard{
+      width: 220px;
+  }
+}

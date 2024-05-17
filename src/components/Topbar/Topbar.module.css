@@ -1,0 +1,22 @@
+.topbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #1a202c;
+    border-bottom: 1px solid #4a5568;
+  }
+  
+  .topbarNav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1px 0;
+  }
+  
+  @media (min-width: 1024px) {
+    .topbarNav {
+      padding: 5px 0;
+    }
+  }
+  

@@ -1,0 +1,232 @@
+.page {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.movie {
+    padding: 30px;
+    margin-left: 250px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    gap: 13px;
+}
+.title{
+    width: 100%;
+    height: auto;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 60px;
+    font-family: "Exo 2";
+    margin-top: 0px;
+   
+  
+}
+
+.left{
+    width: 340px;
+    height: 356px;
+}
+.poster{
+    border-radius: 20px;
+    object-fit: cover;
+    width: 340px;
+    height: 356px;
+    min-width: 250px;
+}
+
+.genres{
+    width: 100%;
+    height: auto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color:#AFB2B6;
+    font-family: "Exo 2";
+    margin-top: 0px;
+  
+
+}
+
+.description{
+    width: 100%;
+    height: auto;
+    font-family: "Exo 2";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    margin-bottom: 40px;
+   
+}
+
+.releaseDate{
+    font-size: 18px;
+  
+}
+
+.rating{
+    width: 40px;
+    height: 100%;
+    background-color: #00A340;
+    color: white;
+    font-family: "Exo 2";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    border-radius: 6px;
+    text-align: center;
+   
+}
+
+
+.ratingBox{
+    width: 230px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imdbBox{
+    width: 80px;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #323537;
+    border-radius: 6px;
+}
+
+.imdbRating{
+    color: white;
+    font-family: "Exo 2";
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 26px;
+    height: 100%;
+    width: auto;
+    margin: 0px;
+}
+
+.cardDetailsBox{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.detailsTitle {
+    width: 85px;
+    color: #AFB2B6;
+    font-family: "Exo 2";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+
+}
+
+.detailsDescription{
+    font-family: "Exo 2";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    padding-left: 50px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.Button{
+    margin-top: 10px;
+    border: 1px solid #242426;;
+    background-color:#242426;
+    border-radius: 10px;
+    width: 160px;
+    height: 40px;
+}
+
+.pages {
+    width: 100%;
+    height: 100%;
+}
+
+
+@media screen and (max-width: 1257px) {
+    .movie{
+       margin-left: 200px;
+    }
+  }
+
+  @media screen and (max-width: 1183px) {
+    .title{
+        font-size: 36px;
+      }
+    .detailsDescription{
+        font-size: 16px;
+    }
+  }
+
+  @media screen and (max-width: 1170px) {
+    .movie{
+       margin-left: 180px;
+    }
+    .title{
+        font-size: 36px;
+      }
+    .detailsDescription{
+        font-size: 16px;
+    }
+  }
+
+
+  @media screen and (max-width: 1140px) {
+    .title{
+      font-size: 34px;
+    }
+    .movie{
+        margin-left: 150px;
+     }
+
+     .page {
+        width: 100%;
+        height: 100%;
+     }
+  }
+
+
+  @media screen and (max-width: 1014px) {
+    .movie{
+        display: flex;
+        flex-direction: column;
+        margin-left: 100px;
+    }
+
+    .left{
+        display: flex;
+        justify-content: center;
+    }
+    .poster{
+        width: 250px;
+    }
+    .title{
+        font-size: 30px;
+      }
+  }
+
+
+ @media screen and (max-width: 610px) {
+    .movie{
+        margin-left: 0px;
+        display: flex;
+        justify-content: center;
+    }
+    .title{
+        font-size: 26px;
+      }
+ }

@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px; 
+  }
+  
+  .input {
+    width: 100%;
+    border-radius: 10px;
+    background: rgb(60, 63, 65);
+    outline: none;
+    padding: 15px;
+
+  }
+  
